@@ -5,11 +5,10 @@ pubDate: 2024-07-30
 description: 'This is the first post on my new Astro Blog.'
 author: 'Juan E. Gil'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-dark.png'
-    alt: 'The Full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+  url: 'https://docs.astro.build/assets/full-logo-dark.png'
+  alt: 'The Full Astro logo.'
+tags: ['astro', 'blogging', 'learning in public']
 ---
-# My first blog post
 
 Welcome to my _new blog_ about learning Astro! Here, I am going to share my learning journey as I build a new website.
 
