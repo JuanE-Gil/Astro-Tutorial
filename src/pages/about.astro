@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = 'About me';
 
@@ -18,8 +19,8 @@ const finished = false;
 const goal = 3;
 
 const skillColor = 'navy';
-const fontWeight = "bold";
-const textCase = "uppercase";
+const fontWeight = 'bold';
+const textCase = 'uppercase';
 ---
 
 <html lang="en">
@@ -27,7 +28,7 @@ const textCase = "uppercase";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
-    <style define:vars={{skillColor, fontWeight, textCase}}>
+    <style define:vars={{ skillColor, fontWeight, textCase }}>
       h1 {
         color: purple;
         font-size: 4rem;
@@ -82,5 +83,7 @@ const textCase = "uppercase";
         <p>My goal is not 3 days</p>
       )
     }
+
+    <Footer />
   </body>
 </html>
